@@ -38,19 +38,13 @@ Generate structured files for indexing.
 
 - The final ranked results follow TREC’s fixed-width tab-separated format:
 
-TOPIC    DOCUMENT    UNIQUE#    COSINE_VALUE
 
 
-Example:
-001    FT911-14    1    0.6532
-001    FT911-15    2    0.6127
-
-Technologies Used
-
-Python
-Jupyter Notebook
-Porter Stemmer
-TF-IDF Weighting
-CosineSimilarity
-TREC Evaluation Standards
+'Technologies Used'
+- Python
+- Jupyter Notebook
+- Porter Stemmer
+- TF-IDF Weighting
+- CosineSimilarity
+- TREC Evaluation Standards
 
