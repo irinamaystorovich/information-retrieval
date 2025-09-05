@@ -14,19 +14,19 @@ Phase	Notebook	Description
 'Phase 3'	implements a vector space model to process queries, calculate TF-IDF scores, rank documents using cosine similarity, and generate TREC-formatted output for evaluation.
 Workflow
 
-####Phase 1 – Data Preparation
+#### Phase 1 – Data Preparation
 
 Load and clean the FT911 dataset.
 Tokenize, remove stopwords, and apply Porter stemming.
 Generate structured files for indexing.
 
-####Phase 2 – Indexing
+#### Phase 2 – Indexing
 
 - Build an inverted index from the preprocessed data.
 - Store postings lists sorted by document IDs.
 - Prepare for fast query lookups.
 
-####Phase 3 – Query Processing
+#### Phase 3 – Query Processing
 
 - Compute TF-IDF weights for terms and documents.
 
