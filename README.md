@@ -9,10 +9,10 @@ The system processes the FT911 news dataset, cleans and structures the data, bui
 
 *Project Structure*
 Phase	Notebook	Description
-==Phase 1==	parses and preprocesses the raw FT911 documents by cleaning text, tokenizing, removing stopwords, and applying stemming. Produces structured outputs, including a forward index and document mapping files.
-'Phase 2'	builds the inverted index, mapping each term to a sorted list of documents containing it, along with term frequencies for TF-IDF computation.
-'Phase 3'	implements a vector space model to process queries, calculate TF-IDF scores, rank documents using cosine similarity, and generate TREC-formatted output for evaluation.
-Workflow
+Phase 1	parses and preprocesses the raw FT911 documents by cleaning text, tokenizing, removing stopwords, and applying stemming. Produces structured outputs, including a forward index and document mapping files.
+Phase 2	builds the inverted index, mapping each term to a sorted list of documents containing it, along with term frequencies for TF-IDF computation.
+Phase 3	implements a vector space model to process queries, calculate TF-IDF scores, rank documents using cosine similarity, and generate TREC-formatted output for evaluation.
+
 
 #### Phase 1 – Data Preparation
 
@@ -36,7 +36,7 @@ Generate structured files for indexing.
 
 
 
-'Technologies Used'
+###Technologies Used
 - Python
 - Jupyter Notebook
 - Porter Stemmer
